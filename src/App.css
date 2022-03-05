@@ -94,23 +94,22 @@ body{
   background-color: black;
 }
 
-.left{
-  width:30%;
-  float:left;
+.right a{
+  text-decoration: none;
+  color: white;
+  margin-top:20px;
+  margin-right: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius:5px;
+  background-color: black;
 }
 
-.left img{
-  width:160px;
-  height:163px;
-  border-radius:50%;
-  margin-top:20px;
-  border: 1px solid black;
-  margin-bottom:3px;
-}
+
 
 .right{
-  width:70%;
-  float:right;
+  width:100%;
+  float:left;
   margin-bottom:32px;
 }
 

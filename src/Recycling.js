@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import recycle from './images/recycling.png';
+// import recycle from './images/recycling.png';
 
 function Empl() {
     return(
     <div>
-        <div className="left">
+        {/* <div className="left">
             <a href="https://brartanveerk.wixsite.com/brart5/final-deliverables-2"><img src={recycle} alt="recycle-logo"/></a>
-        </div>
+        </div> */}
         <div className="right">
             <h3>Recycling Project</h3>
             <p>This project was created in a group of four as a part of our first year engineering coursework. We worked 
@@ -18,6 +18,7 @@ function Empl() {
                 I contributed to the software component of the code. The code is available at the end of the document linked to the 
                 project logo.
             </p>
+            <a href="https://brartanveerk.wixsite.com/brart5/final-deliverables-2">Github</a>
         </div>
     </div>
     )

@@ -10,8 +10,6 @@ function Projects() {
   return (
     <div className="outer">
         <h1>Project Porfolio</h1>
-        <h3 className="checkout">Feel free to click on the project logos to be redirected to the respective projects.</h3>
-
         <Expenso/>
         <Empl/>
         <Commento/>
